@@ -1,6 +1,6 @@
 # SQR - React Frontend
 
-This version of the interface for the Quality and Traceability System (SQR) was developed with **React + Vite + TypeScript** to practice modern frontend technologies and explore different approaches to the same problem presented in the technical test.
+This version of the interface for the Quality and Traceability System (SQR) was developed with **React + Vite + JavaScript** to practice modern frontend technologies and explore different approaches to the same problem presented in the technical test.
 
 ---
 
@@ -21,7 +21,7 @@ This version of the interface for the Quality and Traceability System (SQR) was 
 
 - React 18
 - Vite
-- TypeScript
+- JavaScript
 - React Hook Form (or another form system)
 - Axios for HTTP requests
 - Integration with [SQR-Backend](https://github.com/thiagopolycarpo/SQR-Backend)
