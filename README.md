@@ -1,12 +1,40 @@
-# React + Vite
+# SQR - React Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This version of the interface for the Quality and Traceability System (SQR) was developed with **React + Vite + TypeScript** to practice modern frontend technologies and explore different approaches to the same problem presented in the technical test.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Query and selection of production orders
+- Display of the selected product's image and data
+- Production record submission with:
+  - Material selection
+  - Data validation
+  - Automatic calculation of cycle time between form start and submission
+- Visual feedback after submission
+- Automatic form reset
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+- React 18
+- Vite
+- TypeScript
+- React Hook Form (or another form system)
+- Axios for HTTP requests
+- Integration with [SQR-Backend](https://github.com/thiagopolycarpo/SQR-Backend)
+
+---
+
+## How to Run
+
+> Requirements: Node.js
+
+```bash
+git clone https://github.com/thiagopolycarpo/SQR-Frontend-React
+cd SQR-Frontend-React
+npm install
+npm run dev
+```
